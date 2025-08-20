@@ -1,0 +1,17 @@
+{
+    "device_id": "RZ8M4209P4T",
+    "scroll": { "start": [540, 1989], "end": [540, 800], "duration_ms": 450 },
+    "max_scrolls": 40,
+    "stop_when_stationary": 3,
+    "max_profiles": 10,
+    "button_sequence": [
+      { "tap_px": [900, 1700], "name": "Like" },
+      { "tap_px": [500, 1500], "name": "FocusText" },
+      { "type_text": true },
+      { "tap_px": [950, 2200], "name": "Done" },
+      { "tap_px": [550, 1800], "name": "Send" }
+    ],
+    "next_profile_sequence": [
+      { "swipe_px": [540, 1850, 540, 600], "duration_ms": 500 }
+    ]
+}  
